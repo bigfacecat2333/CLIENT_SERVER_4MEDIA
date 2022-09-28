@@ -1,0 +1,52 @@
+{
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "files.associations": {
+      "stat.h": "c",
+      "types.h": "c",
+      "signal.h": "c",
+      "socket.h": "c",
+      "error.h": "c",
+      "inet.h": "c",
+      "errno.h": "c",
+      "server_conf.h": "c",
+      "proto.h": "c",
+      "medialib.h": "c",
+      "ip.h": "c",
+      "pthread.h": "c",
+      "unistd.h": "c",
+      "mybtf.h": "c",
+      "mytbf.h": "c",
+      "thr_list.h": "c",
+      "thr_channel.h": "c"
+    }
+  }
